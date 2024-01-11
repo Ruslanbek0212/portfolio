@@ -1,0 +1,578 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* grid-sytem */
+
+/* .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0px 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -15px;
+}
+
+.col-1 {
+    width: calc(100% / 12 * 1);
+    padding: 0px 15px;
+}
+
+.col-2 {
+    width: calc(100% / 12 * 2);
+    padding: 0px 15px;
+}
+
+.col-3 {
+    width: calc(100% / 12 * 3);
+    padding: 0px 15px;
+}
+
+.col-4 {
+    width: calc(100% / 12 * 4);
+    padding: 0px 15px;
+}
+
+.col-5 {
+    width: calc(100% / 12 * 5);
+    padding: 0px 15px;
+}
+
+.col-6 {
+    width: calc(100% / 12 * 6);
+    padding: 0px 15px;
+}
+
+.col-7 {
+    width: calc(100% / 12 * 7);
+    padding: 0px 15px;
+}
+
+.col-8 {
+    width: calc(100% / 12 * 8);
+    padding: 0px 15px;
+}
+
+.col-9 {
+    width: calc(100% / 12 * 9);
+    padding: 0px 15px;
+}
+
+.col-10 {
+    width: calc(100% / 12 * 10);
+    padding: 0px 15px;
+}
+
+.col-11 {
+    width: calc(100% / 12 * 11);
+    padding: 0px 15px;
+}
+
+.col-12 {
+    width: calc(100% / 12 * 12);
+    padding: 0px 15px;
+} */
+
+.mr-16 {
+    margin-right: 16px;
+}
+
+
+
+/*  uneversal-cods */
+
+body {
+    font-family: poR;
+    font-weight: 400;
+}
+
+p.title {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: poR;
+    color: rgba(192, 192, 192, 1);
+    margin-bottom: 2px;
+}
+
+p.text {
+    font-size: 14px;
+    line-height: 20px;
+
+}
+
+
+
+/*  header starting */
+
+header nav {
+    padding: 24px 0px;
+    background-color: black;
+    position: fixed;
+    z-index: 111;
+    top: 0;
+    width: 100%    
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a.logo {
+    width: 128px;
+    height: 31px;
+}
+
+header nav ul li {
+    margin-left: 32px;
+}
+
+header nav ul li:nth-child(2) {
+    margin-left: 56px;
+}
+
+header nav ul li a {
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: poR;
+    color: white;
+    text-decoration: none;
+}
+
+header nav button {
+    padding: 10px 20px;
+    background-color: white;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: poR;
+    letter-spacing: 0.4px;
+    color: rgba(0, 0, 0, 1);
+    border-radius: 14px;
+}
+
+header .headerTitle {
+    background: url("./image/header_title.png" ) center  / cover;
+    text-align: center;
+    position: relative;
+    padding-top: 440px;
+    padding-bottom: 40px;
+}
+
+header .headerTitle .center h1 {
+    font-size: 54px;
+    line-height: 59px;
+    font-weight: 400;
+    font-family: poR;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 18px;    
+}
+
+header .headerTitle .center p:last-of-type {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: poR;
+    color: rgba(192, 192, 192, 1);
+}
+
+header .headerTitle .bottom {    
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+header .headerTitle .bottom .box {
+    margin-right: 20px;
+}
+
+header .headerTitle .bottom .box p {    
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 400;
+    font-family: poR;
+    color: rgba(255, 255, 255, 1);
+}
+
+header .headerTitle .bottom .box p img {
+    margin-right: 6px;
+}
+
+/* main starting */
+
+main {
+    background-color: black;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+main h2 {
+    margin-top: 112px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 42px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}
+
+main p {
+    margin-top: 15px;
+    margin-bottom: 42px;
+    font-size: 23px;
+    line-height: 30px;
+    color: rgba(192, 192, 192, 1);
+}
+
+main .box {
+    width: 476px;
+    height: 600px;    
+    position: relative;       
+}
+
+main .box img {
+    width: 476px;
+    height: 600px;
+}
+
+main .box .text {
+    position: absolute;
+    bottom: 70px;
+    left: 30px;
+    text-align: start;
+}
+
+main .box .text p:last-of-type{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    width: 401px;
+    color: rgba(192, 192, 192, 1);
+}
+
+main .box .read, 
+section.tools .left .read {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    width: 143px;
+    height: 42px;
+    background-color: white;
+    border-radius: 14px;
+    padding: 5px 4px;
+}
+
+main .box .read p,
+section.tools .left .read p {
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: rgba(0, 0, 0, 1);
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+}
+main .box .read p::before,
+section.tools .left .read p::before {
+    content: "";   
+    background-color: black;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+
+
+/* section starting */
+
+section.mountain,
+section.leafe,
+section.sky {
+    background: url("./image/mountain.png") no-repeat center / cover;
+    padding-top: 260px;
+    position: relative;
+}
+
+section.mountain p:nth-of-type(2),
+section.leafe p:nth-of-type(2),
+section.sky p:nth-of-type(2) {
+    color: rgba(192, 192, 192, 1) ;
+    margin-top: 0px; 
+    margin-bottom: 210px;   
+}
+
+section.mountain .bottom,
+section.leafe .bottom,
+section.sky .bottom {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    color: white;
+}
+
+section.mountain .bottom .box,
+section.leafe .bottom .box,
+section.sky .bottom .box {    
+    margin-right: 20px;
+}
+
+section.mountain .bottom .box p img,
+section.leafe .bottom .box p img,
+section.sky .bottom .box p img {
+    margin-right: 6px;
+}
+
+section.tools {
+    background-color: black;
+}
+
+section.tools .left {
+    height: 540px;
+    background-color: black;
+    padding-top: 173px;
+    padding-left: 100px;
+    color: white;
+    position: relative;
+}
+
+section.tools .left .read {
+    position: absolute;
+    left: 100px;
+    bottom: 153px;
+    width: 143px;
+    height: 42px;
+    background-color: white;
+    border-radius: 14px;
+    padding: 5px 4px;
+}
+
+section.tools .right {
+    height: 540px;
+    background: url("./image/kamera.png") no-repeat center / cover;
+    padding-top: 173px;
+    padding-left: 100px;
+    color: white;
+    position: relative;
+}
+
+section.tools .right .bottom {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    color: white;
+}
+
+section.tools .right .bottom .box {    
+    margin-right: 20px;
+}
+
+section.tools .right .bottom .box p img {
+    margin-right: 6px;
+}
+
+section.leafe {
+    background: url("./image/leaf.png") no-repeat center / cover;
+}
+
+section.clients,
+section.help {
+    background-color: black;
+    text-align: center;
+    padding-top: 113px;
+    padding-bottom: 140px;
+    color: white;
+}
+
+section.clients h2,
+section.help h2 {
+    font-size: 40px;
+    line-height: 42px;
+}
+
+section.clients p,
+section.help p {
+    font-size: 24px;
+    line-height: 30px;
+    color: rgba(192, 192, 192, 1);
+    margin-bottom: 82px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+section.sky {
+    background: url("./image/mountain (2).png") no-repeat center / cover;
+}
+
+
+section.help .read {
+    margin: auto;
+    /* position: absolute; */    
+    width: 143px;
+    height: 42px;
+    background-color: white;
+    border-radius: 14px;
+    padding: 5px 4px;
+}
+
+section.help .read p {
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: rgba(0, 0, 0, 1);
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+}
+
+section.help .read p::before {
+    content: "";   
+    background-color: black;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+
+footer {
+    background-color: black;
+    padding: 100px 0px;
+}
+
+footer .suprior p:nth-of-type(1) {
+    color: rgba(192, 192, 192, 1);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+footer .suprior ul {
+    padding-left: 0px !important;
+}
+
+footer .suprior ul li {
+    margin-bottom: 10px;
+}
+
+footer .suprior ul li a {
+    font-size: 14px;
+    line-height: 20%;
+    font-weight: 400;
+    font-family: poR;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    list-style: none;
+}
+
+footer .medium {
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    padding: 36px 0px;
+}
+
+footer .medium p:nth-of-type(2) {
+    color: rgba(192, 192, 192, 1);
+    margin-top: 20px;
+}
+
+footer .medium .input {
+    width: 458px;
+    height: 52px;
+    border-radius: 12px;
+    background-color: white;
+    padding: 11px 6px;
+    display: flex;
+    justify-content: end;
+}
+
+footer .medium .input .button {
+    width: 63px;
+    height: 30px;
+    border-radius: 11px;
+    background-color: black;
+
+}
+
+footer .inferior {
+    padding-top: 60px;
+}
+
+footer .inferior p {
+    color: rgba(192, 192, 192, 1);
+}
+
+footer .inferior ul {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 70px;
+}
+
+footer .inferior ul li a i {
+    color: white;
+}
+
+@media(max-width:767px) {
+
+    header nav a.logo{
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+
+    header nav ul {        
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        padding-left: 0px;
+    }
+
+    header nav ul li {
+        margin-left: 0px;
+        margin-bottom: 5px;
+    }
+
+    header nav ul li:nth-child(2){
+        margin-left: 0px;
+    }
+
+    header nav button{
+        margin-top: 30px;
+    }
+
+    section.help .brands{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    section.clients .brands .box {
+        margin-bottom: 60px;
+    }
+    section.clients {
+        padding-bottom: 0px;
+    }
+
+    footer .inferior ul {
+        display: flex;
+        justify-content: start;
+    }
+
+    footer .inferior ul li {
+        margin-left: 10px;
+    }
+}

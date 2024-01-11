@@ -1,0 +1,700 @@
+    * {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+    /* universal-codes */
+    
+    body {
+        font-family: "Lato", sans-serif;
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    
+    button.bgOrange {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 52px;
+        color: white;
+        letter-spacing: .5px;
+        background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+        border-radius: 4px;
+        border: none;
+        padding: 0px 40px;
+    }
+    
+    h2.title {
+        font-size: 46px;
+        font-weight: 900;
+        line-height: 60px;
+        color: rgb(30, 33, 44);
+        margin-bottom: 0;
+    }
+    
+    p.text {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        color: rgb(30, 33, 44);
+        text-transform: uppercase;
+        margin-bottom: 0;
+    }
+    
+    .modal-dialog {
+        margin: 6.75rem auto;
+    }
+    
+    button.bgOrangeLine {
+        padding: 0px 40px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 52px;
+        background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        /* text-fill-color: transparent; */
+        letter-spacing: 0.5px;
+        outline: 1px solid #FF3F3A;
+        border-radius: 4px;
+        border: none;
+    }
+    
+    .ml-135 {
+        margin-left: 135px;
+    }
+    
+    .mb-60 {
+        margin-bottom: 60px;
+    }
+    
+    .mb-30 {
+        margin-bottom: 30px;
+    }
+    /* header start */
+    
+    header {
+        width: 100%;
+        padding-top: 20px;
+        background: url("../bg-image/Group\ \(1\).png") no-repeat center / cover;
+    }
+    
+    header .navbar {
+        padding: 0;
+    }
+    
+    header .navbar .navbar-brand {
+        padding: 0px;
+        margin-right: 60px;
+    }
+    
+    header .navbar .collapse .navbar-nav .nav-item {
+        margin-right: 40px;
+    }
+    
+    header .navbar .collapse .navbar-nav .nav-item:last-child {
+        margin-right: 0;
+    }
+    
+    header .navbar .collapse .navbar-nav .nav-item .nav-link {
+        padding: 0;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 26px;
+        color: #424551
+    }
+    
+    header .navbar .collapse button:last-of-type {
+        background: transparent;
+        border: none;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 26px;
+        color: #424551;
+        margin-left: 38px;
+    }
+    
+    header .navbar .collapse button:last-of-type .fa {
+        margin-right: 10px;
+    }
+    
+    header .header-title {
+        width: 100%;
+        padding-top: 140px;
+        padding-bottom: 80px;
+    }
+    
+    header .header-title .btnTop {
+        display: flex;
+        align-items: center;
+    }
+    
+    header .header-title .btnTop .btnTopLeft {
+        width: 84px;
+        height: 84px;
+        border-radius: 50%;
+        background: rgba(255, 63, 58, 0.12);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    header .header-title .btnTop .btnTopLeft button {
+        background-color: transparent;
+        border: none;
+        width: 52px;
+        height: 52px;
+        background-color: #FF3F3A;
+        border-radius: 50%;
+        color: white;
+        font-size: 16px;
+    }
+    
+    header .header-title .btnTop p {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 21px;
+        color: rgb(30, 33, 44);
+        margin-bottom: 0;
+    }
+    
+    header .header-title h1 {
+        font-size: 64px;
+        font-weight: 900;
+        line-height: 83px;
+        color: rgb(30, 33, 44);
+        letter-spacing: 1px;
+        margin-bottom: 60px;
+        margin-top: 24px;
+    }
+    
+    header .header-title .btnBottom button:first-child {
+        margin-right: 24px;
+    }
+    
+    header .header-title h3 {
+        font-size: 46px;
+        font-weight: 900;
+        line-height: 60px;
+        color: rgb(30, 33, 44);
+        display: flex;
+        align-items: center;
+        margin-top: 190px;
+    }
+    
+    header .header-title h3 span {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        margin-left: 12px;
+    }
+    
+    header .header-title h3::before {
+        content: "";
+        display: block;
+        width: 8px;
+        height: 8px;
+        background-color: #F75E05;
+        border-radius: 50%;
+        margin-right: 60px;
+    }
+    
+    header .header-title .col-auto:first-of-type h3::before {
+        display: none;
+    }
+    /* main-starting */
+    
+    main {
+        width: 100%;
+        padding: 180px 0px;
+        background: url("../bg-image/Group\ \(2\).png") no-repeat center / contain;
+    }
+    
+    main .list {
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+    
+    main .list p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        color: rgb(66, 69, 81);
+        margin-bottom: 12px;
+        display: flex;
+        align-items: flex-start;
+    }
+    
+    main .list p:last-child {
+        margin-bottom: 0px;
+    }
+    
+    main .list p .fa-sharp {
+        color: #F75E05;
+        margin-right: 16px;
+        display: block;
+        padding-top: 2px;
+        line-height: 26px;
+    }
+    
+    main img {
+        height: 600px;
+    }
+    /* section-starting */
+    
+    section.learn {
+        margin-top: 180px;
+        width: 100%;
+    }
+    
+    section.learn .learnCard {
+        border: 1px solid #E5E8ED;
+        box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+        border-radius: 4px;
+    }
+    
+    section.learn .learnCard button {
+        margin-top: 33px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        color: white;
+        background: #03CEA4;
+        border-radius: 4px;
+        border: none;
+        padding: 1px 8px;
+        margin-bottom: 20px;
+    }
+    
+    section.learn .learnCard h3 {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        color: rgb(30, 33, 44);
+        margin-bottom: 20px;
+    }
+    
+    section.learn .learnCard p {
+        color: rgba(120, 122, 128, 1);
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+    }
+    
+    section.learn .learnCard p span {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 27px;
+        color: #FF3F3A;
+        margin-right: 8px;
+    }
+    
+    section.benifits {
+        width: 100%;
+        margin-top: 180px;
+        text-align: center;
+    }
+    
+    section.benifits .nav-tabs {
+        margin-top: 60px;
+        border: none;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    section.benifits .nav-tabs .nav-link {
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 700;
+        color: rgba(154, 156, 165, 1);
+        border: none;
+        margin: 0;
+        padding: 10px 80px;
+    }
+    
+    section.benifits .nav-tabs .nav-link i {
+        margin-right: 10px;
+    }
+    
+    section.benifits .nav-tabs .nav-item.show .nav-link,
+    section.benifits .nav-tabs .nav-link.active {
+        color: #FF3F3A;
+        outline: 1px solid rgba(255, 63, 58, 1);
+        border-radius: 4px;
+        display: block;
+    }
+    
+    section.benifits .tab-content {
+        margin-top: 80px;
+        text-align: left;
+    }
+    
+    section.benifits .tab-content h3 {
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 42px;
+        color: rgb(30, 33, 44);
+        margin-bottom: 24px;
+    }
+    
+    section.benifits .tab-content p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        color: rgb(66, 69, 81);
+    }
+    
+    section.events {
+        width: 100%;
+        padding: 80px 0px;
+        margin-top: 140px;
+        background: linear-gradient(55.95deg, rgba(255, 63, 58, .2) 0%, rgba(247, 94, 5, .2) 100%);
+        text-align: center;
+    }
+    
+    section.events .accordion {
+        margin-top: 60px;
+    }
+    
+    section.events .accordion .accordion-item {
+        width: 100%;
+        background: #FFFFFF;
+        border-radius: 4px;
+        margin-bottom: 24px;
+    }
+    
+    section.events .accordion .accordion-item .accordion-button {
+        background-color: transparent;
+        border: none;
+        box-shadow: unset;
+        border-radius: 0px;
+        padding: 30px 40px;
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    section.events .accordion .accordion-item .accordion-button .leftSide {
+        display: flex;
+        width: 230px;
+    }
+    
+    section.events .accordion .accordion-item .accordion-button .leftSide h3 {
+        font-size: 48px;
+        line-height: 62px;
+        letter-spacing: 2px;
+        color: rgba(255, 63, 58, 1);
+        font-weight: 900;
+        margin-right: 20px;
+    }
+    
+    section.events .accordion .accordion-item .accordion-button .leftSide p {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        margin-bottom: 4px;
+        color: rgb(30, 33, 44);
+    }
+    
+    section.events .accordion .accordion-item .accordion-button .leftSide span {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        color: rgba(120, 122, 128, 1);
+    }
+    
+    section.events .accordion .accordion-item .accordion-button h4 {
+        max-width: 800px;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        color: rgba(30, 33, 44, 1);
+        margin-right: 40px;
+        margin-bottom: 0px;
+    }
+    
+    section.events .accordion .accordion-item .accordion-button h4 span {
+        display: block;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        color: rgba(120, 122, 128, 1);
+        margin-top: 5px;
+    }
+    
+    section.events .accordion .accordion-item .accordion-button:not(.collapsed)::after,
+    section.events .accordion .accordion-item .accordion-button::after {
+        display: none;
+    }
+    
+    section.events .accordion .accordion-item .accordion-button:not(.collapsed) .bgOrangeLine {
+        background-color: red !important;
+        background-clip: unset;
+        color: white !important;
+        -webkit-text-fill-color: unset !important;
+    }
+    
+    section.events .accordion .accordion-item .accordion-body {
+        text-align: left;
+        padding: 0px 40px;
+        padding-bottom: 20px;
+    }
+    
+    section.certificate {
+        width: 100%;
+        padding-top: 120px;
+        padding-bottom: 90px;
+        background-color: #fbfbfb;
+    }
+    
+    section.certificate p:last-of-type {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        color: rgb(66, 69, 81);
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    
+    section.certificate .imgGroup {
+        display: flex;
+    }
+    
+    section.certificate .imgGroup img {
+        margin-right: 40px;
+    }
+    
+    section.certificate .imgCertificate {
+        position: absolute;
+        top: 5px;
+        border-radius: 4px;
+        right: 0px;
+    }
+    
+    section.tutors {
+        width: 100%;
+        margin-top: 170px;
+    }
+
+    section.tutors .cardSlider {
+        display: flex;
+        margin-top: 60px;
+        justify-content: space-between;
+    }
+    
+    section.tutors .cardSlider .box {
+        margin: 0px 15px;
+        width: calc(100% / 12 * 3);
+    }
+    
+    section.tutors .cardSlider .box .mentors {
+        position: relative;
+    }
+    
+    section.tutors .cardSlider .box .mentors img {
+        width: 100%;
+    }
+    
+    section.tutors .cardSlider .box .mentors ul {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        background: linear-gradient(180deg, rgba(30, 33, 44, 0) 43.9%, rgba(30, 33, 44, 0.03) 55.21%, rgba(30, 33, 44, 0.33) 68.73%, rgba(30, 33, 44, 0.56) 76.17%, rgba(30, 33, 44, 0.768225) 83.75%, rgba(30, 33, 44, 0.92) 91.49%, #1E212C 100%);
+        border-radius: 4px;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 0;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        padding-bottom: 20px;
+        opacity: 0;
+    }
+
+    section.tutors .cardSlider .box .mentors:hover ul {
+        transition: 1s;
+        opacity: 1;
+    }
+    
+    section.tutors .cardSlider .box .mentors ul li {
+        margin-right: 20px;
+    }
+    
+    section.tutors .cardSlider .box .mentors ul li a {
+        color: white;
+    }
+
+    section.tutors .cardSlider .box h3 {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 700;
+        color: rgba(66, 69, 81, 1);
+        text-align: center;
+        margin-top: 16px;
+        margin-bottom: 5px;
+    }
+
+    section.tutors .cardSlider .box p {
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 400;
+        color: rgba(120, 122, 128, 1);
+        text-align: center;
+    }
+
+    section.tutors .carousel button {
+        position: absolute;
+        top: -30px;
+        right: 20px !important;
+        left: unset !important ;        
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        font-size: 18px;
+        color: black;       
+    }
+
+    section.tutors .carousel button:hover {
+        background-color: rgba(255, 63, 58, 1);
+        color: white;
+        transition: 1s;
+    }
+
+    section.tutors .carousel .carousel-control-prev {
+        right: 85px !important;
+    }
+
+    
+
+
+    
+
+    /* --------------------------------course-starting------------------------------- */
+
+    header {
+        background: url("../bg-image/Group (5).png");
+    }
+
+    .header-title-course {        
+        text-align: center;
+        padding: 120px 0px;
+    }
+
+    main.course {
+        margin-top: 120px;
+        background: none;        
+    }
+
+
+    main.course .about-course p {
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 400;
+        color: rgba(66, 69, 81, 1);
+        margin-top: 40px;
+    }
+
+    main.course .about-course h3 {
+        font-size: 28px;
+        line-height: 42px;
+        font-weight: 700;
+        color: rgba(30, 33, 44, 1);
+        margin-top: 48px;
+        margin-bottom: 24px;        
+    }
+
+    
+    main.course .about-course p.list {
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 400;
+        color: rgba(66, 69, 81, 1);
+        margin-bottom: 4px;
+        margin-top: 0px;        
+    }
+    
+    main.course .about-course p i {
+        margin-right: 16px;
+        color: rgba(255, 63, 58, 1);
+    }
+
+    main.course .card-course {
+        padding: 40px 32px;
+        border: 1px solid #E5E8ED;
+        box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+        border-radius: 4px;
+    }
+
+    main.course .card-course .box {
+        margin-bottom: 32px;
+    }
+
+    main.course .card-course .box p:first-of-type {
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 700;
+        color: rgba(30, 33, 44, 1);
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin-bottom: 4px;
+    }
+
+    main.course .card-course .box h4 {
+        font-size: 24px;
+        line-height: 31px;
+        font-weight: 700;
+        color: rgba(255, 63, 58, 1);
+    }
+    
+    main.course .card-course .box p:last-of-type {
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 400;
+        color: rgba(120, 122, 128, 1);
+        margin-top: 8px;            
+    }
+
+    main.course .card-course button {
+        font-size: 14px;
+        line-height: 44px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        color: rgba(255, 255, 255, 1);
+        margin-top: 40px;
+        padding: 10px 162px;
+        background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+        border-radius: 4px;
+        border: none;
+    }
+
+    /* section-starting */
+
+    section.courseCard {
+        margin-top: 120px;
+        padding-top: 66px;
+        background: url("../bg-image/Group (6).png");
+    }
+
+    section.courseCard .codyFisher {
+        margin-top: 20px;
+    }
+    
+    section.courseCard .codyFisher h2 {
+        margin-top: 8px;
+        margin-bottom: 16px;
+    }
+
+    section.courseCard .codyFisher p:nth-child(2) {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 400;
+        color: rgba(120, 122, 128, 1);
+    }

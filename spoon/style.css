@@ -1,0 +1,438 @@
+/* uneversal cods */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* variables */
+
+
+body {
+    height: 10000px;
+}
+
+
+/* header starting */
+
+header {
+    width: 100%;
+    height: 582px;        
+    background: url("./image/bos.png") no-repeat center / cover;   
+
+}
+
+
+header nav {
+    width: 1170px;
+    height: 90px;
+    margin: auto;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: fixed;
+    top: 0;
+    width: 100%     */
+
+}
+
+header nav .logo {
+    width: 126px;
+    height: 30px;
+}
+
+header nav ul {
+    display: flex;    
+}
+
+header nav ul li {
+    margin-left: 40px;    
+}
+
+header nav ul li:nth-child(5) a {
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li:nth-child(5) a::before {
+    content: "";
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    background-color: white;
+    margin-right: 35px;       
+}
+
+
+header nav ul li a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: libR ;
+    color: rgba(255, 255, 255, 1)
+}
+
+header nav ul li .get_start {
+    border: 2px solid white;
+    width: 120px;
+    height: 46px;
+    border-radius: 4px;
+    padding: 11px 17px;
+
+}
+
+header .headertitle {
+    margin: auto;
+    margin-top: 115px;
+    text-align: center;
+    
+}
+
+header .headertitle h1 {    
+    font-size: 71px;
+    line-height: 78px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-family: libB;
+    color: white;
+}
+
+header .headertitle p {
+    margin-top: 35px;    
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: ibmB;
+    color: white;
+    margin-bottom: 60px;
+}
+
+header .headertitle button ,
+section .sumbit button {
+    width: 160px;
+    height: 60px;
+    border-radius: 4px;
+    background-color: rgba(90, 185, 99, 1);
+    border: none;    
+    padding: 15px 30px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: libR;
+    color: white;
+    
+}
+
+/* section starting */
+
+
+
+section .menyu {
+    width: 1170px;
+    height: 528px;
+    margin: auto;
+    margin-top: 120px;
+}
+
+section .menyu p {
+    width: 510px;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 100;
+    font-family: libT;
+    color: rgba(153, 153, 153, 1);
+
+}
+
+section .menyu p span {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    font-family: libB;
+    color: black;
+}
+
+section .menyu .menyuParts {
+    width: 1170px;
+    display: flex;
+    justify-content: space-around;    
+    margin-top: 54px;
+    padding: 0px 10px;
+    
+}
+
+section .menyu .menyuParts .part {
+    width: 377px;
+    height: 330px;
+    padding: 51px 41px;
+    border: 1px solid rgba(247, 247, 247, 1);
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.05);
+    
+}
+
+section .menyu .menyuParts .part img {
+    width: 60px;
+    height: 60px;
+}
+
+section .menyu .menyuParts .part h3 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: libB;
+    color: black;
+    margin-bottom: 13px;
+    margin-top: 25px;
+
+}
+
+section .menyu .menyuParts .part p {
+    width: 280px;
+    height: 72;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: ibmR;
+    color: rgba(153, 153, 153, 1);
+    
+}
+
+section .img {
+    width: 1440px;
+    margin: auto;
+    text-align: center;
+    margin-top: 120px;
+    padding: 0px 30px;
+    padding-bottom: 115px;    
+    
+}
+
+section .img img {
+    width: 1380px;
+    height: 720px;
+    
+}
+
+section .img p {
+    width: 685px;
+    height: 144px;
+    margin: auto;
+    margin-top: 115px;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 100;
+    font-family: libT;
+    color: rgba(153, 153, 153, 1);
+    margin-bottom: 6px;    
+
+}
+
+section .img p span , 
+section .posts .box .info .title_info span ,
+section .sumbit .sumbit_info p span {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    font-family: libB;
+    color: black;
+}
+
+section .img a {
+    font-size: 11px;
+    line-height: 18px;
+    font-weight: 400;
+    font-family: ibmR;
+    color: rgba(90, 185, 99, 1);
+    text-transform: uppercase;
+    margin-bottom: 115px;
+    
+}
+
+section .posts {
+    width: 1170px;
+    height: 1154px;
+    margin: auto;
+    padding: 120px 0px;
+    text-align: center;
+    border-bottom: 1px solid rgba(230, 230, 230, 1);
+    border-top: 1px solid rgba(230, 230, 230, 1);
+    
+}
+
+section .posts .box {
+    width: 1170px;
+    height: 330px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 90px;
+    /* border: 2px solid red; */
+
+}
+
+section .posts .box img {
+    width: 470px;
+    height: 330px;
+}
+
+section .posts .box .info {
+    width: 370px;
+    height: 330px;
+    margin-right: 230px;
+}
+
+section .posts .box .info .title_info ,
+section .sumbit .sumbit_info p {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 100;
+    font-family: libT;
+    color: rgba(153, 153, 153, 1);
+}
+
+section .posts .box .info p {
+    width: 360px;
+    height: 120px;
+    margin-top: 25px;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 100;
+    font-family: libT;
+    color: rgba(153, 153, 153, 1);
+
+}
+
+section .posts .box:nth-child(2) {
+    flex-direction: row-reverse;
+    padding-left: 230px;
+    
+}
+
+section .posts h2 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: libB;
+    color: black;
+    display: block;
+    margin-top: 110px;
+}
+
+section .posts a {
+    font-size: 11px;
+    line-height: 18px;
+    font-weight: 400;
+    font-family: ibmR;
+    color: rgba(90, 185, 99, 1);
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 12px;
+    
+        
+}
+
+section .sumbit {
+    width: 1440px;
+    height: 411px;
+    margin: auto;
+    padding: 150px 135px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+section .sumbit .sumbit_info {
+    width: 585px;
+    height: 111px;
+    
+}
+
+section .sumbit .sumbit_info .upper {
+    display: flex;
+    align-items: center;
+}
+
+section .sumbit .sumbit_info .upper a {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: libB;
+    color: rgba(90, 185, 99, 1);
+}
+
+section .sumbit .sumbit_info .upper .line {
+    width: 30px;
+    height: 2px;
+    border: 2px solid rgba(90, 185, 99, 1);
+    margin-left: 20px;
+}
+
+section .sumbit .sumbit_info p {
+    width: 483px;
+    height: 72px;
+    margin-top: 15px;
+}
+
+footer {
+    width: 100%;
+    height: 400px;
+    background-color: rgba(10, 14, 26, 1);
+    margin: auto;
+    padding: 120px 135px ;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .left p {
+    margin-top: 15px;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    font-family: libR;
+    color: rgba(102, 102, 102, 1);
+
+}
+
+footer nav {
+    width: 585px;
+    height: 129px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer nav ul {
+    width: 340px;
+    height: 159px;
+    display: flex;    
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+footer nav ul li {
+    margin-bottom: 25px;
+    margin-right: 50px;
+}
+
+footer nav ul li a {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    font-family: libR;
+    color: rgba(255, 255, 255, 1);
+}
+
+footer nav .icons {
+    width: 146px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+
+

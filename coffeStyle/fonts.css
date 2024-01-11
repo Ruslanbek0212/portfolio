@@ -1,0 +1,9 @@
+@font-face {
+    font-family: laraR;
+    src: url(./fonts/static/Karla-Regular.ttf);
+}
+
+@font-face {
+    font-family: laraB;
+    src: url(./fonts/static/Karla-Bold.ttf);
+}

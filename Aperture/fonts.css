@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "libT";
+    src: url("./fonts/Libre_Franklin/static/LibreFranklin-Thin.ttf");
+}
+
+@font-face {
+    font-family: "libR";
+    src: url("./fonts/Libre_Franklin/static/LibreFranklin-Regular.ttf");
+}
+
+@font-face {
+    font-family: "libB";
+    src: url("./fonts/Libre_Franklin/static/LibreFranklin-Bold.ttf");
+}
+
+@font-face {
+    font-family: "ibmR";
+    src: url("./fonts/IBM_Plex_Mono/IBMPlexMono-Regular.ttf");
+}
+
+@font-face {
+    font-family: "ibmB";
+    src: url("./fonts/IBM_Plex_Mono/IBMPlexMono-Bold.ttf");
+}
+
+@font-face {
+    font-family: "rusR";
+    src: url("./fonts/Russo_One/RussoOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: "poR";
+    src: url("./fonts/Poppins/Poppins-Regular.ttf");
+}

@@ -1,0 +1,521 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* uneversal cods */
+
+body {
+    font-family: ExR;
+}
+
+
+
+/* header-starting */
+
+
+
+
+header nav {
+    background: url("./image/nav.png") no-repeat center / cover;
+    padding-top: 34px;
+    padding-bottom: 150px;
+}
+
+header nav .left,
+footer .vidi .left,
+footer .vidi .right {
+    display: flex;
+    align-items: center;
+}
+
+header nav .left .logo,
+footer .vidi .left .logo {
+    margin-right: 20px;
+}
+
+header nav .left .text p,
+footer .vidi .left .text p,
+footer .vidi .right .text p {
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: exR;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+header nav .left .text p::before,
+footer .vidi .left .text p::before {
+    content: "";
+    display: inline-block;
+    background-color: white;
+    width: 1px;
+    height: 46px;
+    margin-right: 20px;
+}
+
+header nav button {
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 400;
+    color: white;
+    border: none;    
+    width: 252px;    
+    border-radius: 32px;
+    /* background-color: blue; */
+    background: linear-gradient(180deg, #174679 0%, #8D60F1 65.68%);
+    padding: 17px 27px;
+    transition: 1s;
+}
+
+header nav button:hover {
+    background: white;
+    color: black;
+}
+
+header nav h1 {
+    font-size: 62px;
+    line-height: 84px;
+    font-weight: 600;
+    font-family: exSB;
+    color: white;
+    margin-top: 60px;
+}
+
+header .headerTitle {
+    position: relative;
+    background: url("./image/dots.png") no-repeat;
+    background-position-x: 73px ;
+    background-position-y: 470px;
+}
+
+header .headerTitle h1 {
+    font-size: 62px;
+    line-height: 70px;
+    font-weight: 600;
+    font-family: exSB;
+    color: black;
+    margin-top: 42px;
+}
+
+header .headerTitle p {
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 400;
+    color: rgba(40, 40, 40, 1);
+    margin-top: 66px;
+}
+
+header .headerTitle button {
+    width: 350px;    
+    border-radius: 35px;
+    background: linear-gradient(180deg, #8D60F1 0%, #18467A 100%);
+    padding: 20px 27px;
+    border: none;
+    font-size: 17px;
+    line-height: 32px;
+    font-weight: 700;
+    font-family: exB;
+    color: white;
+    margin-top: 78px;
+    margin-bottom: 80px;
+
+}
+
+header .headerTitle .cards {
+    position: absolute;
+    right: 0px;    
+    bottom: 0px;
+    /* width: 766px;
+    height: 700px;     */
+}
+
+/* main-starting */
+
+main {
+    background-color: rgba(252, 252, 252, 0.438);
+    background: url("./image/dots.png") no-repeat;
+    background-position-x: 73px;
+    background-position-y: -70px;
+    padding-top: 57px;
+}
+
+main h2 {
+    font-size: 32px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: exB;
+    color: rgba(40, 40, 40, 1);
+    margin-bottom: 50px;
+}
+
+main .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .box .img img {
+    width: 128px;
+    height: 128px;
+    margin-bottom: 46px;
+}
+
+main .box .info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+}
+
+main .box .info .num p {
+    font-size: 88px;
+    line-height: 50px;
+    font-weight: 500;
+    font-family: exM;
+    color: rgba(0, 185, 171, 1);
+    margin-right: 32px;
+}
+
+main .box .info .text p {
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 400;
+    width: 250px;
+}
+
+section .beryem {
+    padding: 53px 0px;
+    background: url("./image/dots.png") no-repeat;
+    background-position-x: 73px;
+    position: relative;
+}
+
+section .beryem .worker {
+    position: absolute;
+    top: -50px;    
+}
+
+section .beryem h3 {
+    font-size: 32px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: exB;
+    color: black;      
+}
+
+section .beryem p {
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-top: 18px;
+    color: rgba(40, 40, 40, 1);
+}
+
+section .beryem p i {
+    width: 39px;
+    height: 29px;
+    margin-right: 15px;
+    color: rgba(0, 185, 171, 1);
+}
+
+section .agent {
+    margin-top: 28px;
+    background: url("./image/deller.png") no-repeat center / cover;
+    padding: 80px 0px;
+    color: white;
+}
+
+section .agent h2 {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 700;
+    font-family: exB;
+}
+
+section .agent h2 {
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: 700;
+    font-family: exB;
+    margin-bottom: 88px;
+}
+
+section .agent p {
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: 400;
+    margin-bottom: 20px;    
+}
+
+section .agent p i {
+    width: 40px;
+    height: 30px;
+    margin-right: 16px;
+    color: rgba(0, 185, 171, 1);    
+}
+
+section .agent p:last-of-type {
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-top: 20px;    
+}
+
+section .pay {
+    padding-top: 32px;
+    background: url("./image/dots.png") no-repeat;
+    background-position-x: 1732px;
+    background-position-y: 17px;
+    margin-top: 100px;
+}
+
+section .pay2 {
+    padding-top: 32px;
+    background: url("./image/dots.png") no-repeat;
+    background-position-x: 73px;
+    background-position-y: 230px;
+    margin-top: 100px;
+}
+
+section .pay .svg,
+section .pay2 .svg {
+    margin-right: 37px;
+}
+
+section .pay .info2 h3,
+section .pay2 .info2 h3,
+section .komissiya .info2 h3 {
+    font-size: 32px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: exB;
+    color: black;
+}
+
+section .pay .info2 h4 {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    font-family: exB;
+    color: black;
+}
+
+section .pay .info2 p.title {
+    font-size: 17px;
+    line-height: 38px;
+    font-weight: 400;
+    color: black;
+}
+
+section .pay .info2 p,
+section .pay2 .info2 p,
+section .komissiya .info2 p {
+    font-size: 17px;
+    line-height: 52px;
+    font-weight: 400;
+    color: black;
+}
+
+section .pay .info2 p i,
+section .pay2 .info2 p i,
+section .komissiya .info2 p i {
+    width: 38px;
+    height: 38px;
+    color: rgba(0, 185, 171, 1);
+}
+
+section .chart {
+    padding: 58px 0px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+section .chart h2 {
+    font-size: 32px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: exB;
+    color: black;
+    margin-bottom: 16px;
+}
+
+section .komissiya {
+    background-color: rgba(235, 244, 255, 1);
+    padding: 50px 0px;
+    padding-bottom: 25px;    
+    position: relative;
+}
+
+section .komissiya .kom {
+    position: absolute;
+    bottom: 0px;
+}
+
+section .partnyor {
+    padding: 60px 0px;
+}
+
+section .partnyor h2 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    font-family: exB;
+    color: rgba(40, 40, 40, 1);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+section .konsultat {
+    background: url("./image/city.png") no-repeat center / cover;
+    padding: 60px 0px;
+    text-align: center;
+}
+
+section .konsultat h2 {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 700;
+    font-family: exB;
+    color: black;
+    margin-bottom: 40px;
+}
+section .konsultat h2 span {
+    color: rgba(141, 96, 241, 1);
+}
+
+section .konsultat p {
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 40px;
+}
+
+section .konsultat p.link {
+    color: rgba(141, 96, 241, 1);
+    margin-bottom: 60px;
+}
+
+section .konsultat button {
+    width: 350px;
+    border-radius: 35px;
+    border: none;
+    background: linear-gradient(180deg, #8D60F1 0%, #6C3CD9 100%);
+    padding: 20px 0px;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    font-family: exB;
+    color: white;
+}
+
+/* footer-starting */
+
+footer {
+    background: linear-gradient(180deg, #18467A 0%,  #8D60F1 100%);
+    
+}
+
+footer .kontact {
+    padding: 50px;   
+}
+
+footer .kontact h2 {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 700;
+    font-family: exB;
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+footer .kontact p span {
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 700;
+    font-family: exB;
+    color: white;
+    text-align: center;
+}
+
+footer .kontact p:first-of-type {
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+footer .kontact .mkk p {
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 400;
+    color: white;
+    text-align: left;
+    margin-bottom: 28px;
+}
+
+footer .kontact .mkk p i {
+    margin-right: 12px;
+}
+
+footer .kontact .num {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+footer .kontact .num p {
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 28px;
+}
+
+footer .kontact .num p span {
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 400;
+    color: rgba(147, 139, 233, 1);
+    margin-right: 40px;
+}
+
+footer .vidi {
+    padding: 19px 0px;
+    background: rgba(0, 0, 0, 0.15);
+}
+
+footer .vidi .right .arrow {
+    margin-left: 17px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: white;       
+}
+
+footer .vidi .right .text p i {
+    margin-left: 17px;
+    color: rgb(241, 241, 241);
+}
+
+footer .vidi .right .text p {
+    margin: 0px;
+}
+
+@media(max-width < 767px) {
+    section .chart img {
+        width: 0px;
+        height: 0px;
+    }
+}

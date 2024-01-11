@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "libT";
+    src: url("./fonts/Libre_Franklin/static/LibreFranklin-Thin.ttf");
+}
+
+@font-face {
+    font-family: "libR";
+    src: url("./fonts/Libre_Franklin/static/LibreFranklin-Regular.ttf");
+}
+
+@font-face {
+    font-family: "libB";
+    src: url("./fonts/Libre_Franklin/static/LibreFranklin-Bold.ttf");
+}
+
+@font-face {
+    font-family: "ibmR";
+    src: url("./fonts/IBM_Plex_Mono/IBMPlexMono-Regular.ttf");
+}
+
+@font-face {
+    font-family: "ibmB";
+    src: url("./fonts/IBM_Plex_Mono/IBMPlexMono-Bold.ttf");
+}
+
+@font-face {
+    font-family: "rusR";
+    src: url("./fonts/Russo_One/RussoOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: "poR";
+    src: url("./fonts/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: "exR";
+    src: url("./fonts/exo 2/static/Exo2-Regular.ttf");
+}
+
+@font-face {
+    font-family: "exB";
+    src: url("./fonts/exo 2/static/Exo2-Bold.ttf");
+}
+
+@font-face {
+    font-family: "exSB";
+    src: url("./fonts/exo 2/static/Exo2-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "exM";
+    src: url("./fonts/exo 2/static/Exo2-Medium.ttf");
+}
+
+@font-face {
+    font-family: foR;
+    src: url("./fonts/forum/Forum-Regular.ttf");
+}

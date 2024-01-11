@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/* uneversal-cods */
+
+body {
+    font-weight: 400;
+    font-family: foR;
+}
+
+
+
+/* header-starting */
+
+header  {
+    width: 100%;
+    padding: 87px 0px;
+    background: url("./image/header.png") no-repeat center / cover ;
+    
+}
+
+
+header nav ul {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    padding-left: 0px;
+}
+
+header nav ul li {
+    margin-right: 60px;
+}
+
+header nav ul li a {
+    font-size: 20px;
+    line-height: 22px;
+    /* letter-spacing: 0.6px; */
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    list-style: none;
+}
+
+header nav p {
+    font-size: 20px;
+    line-height: 22px;
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+
+/* headerTitle-starting */
+
+header .headerTitle {
+    text-align: center;
+    color: white;
+    margin-top: 190px;
+}
+
+header .headerTitle h1 {
+    font-size: 120px;
+    line-height: 132px;
+    letter-spacing: 5px;
+}
+
+header .headerTitle button {
+    margin-top: 80px;
+    background: rgba(0, 0, 0, 0.2);
+    width: 200px;
+    height: 50px;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: white;
+    border: 1px solid white;
+    margin-bottom: 40px;
+}
+
+header .headerTitle .icons {
+    display: grid;
+    grid-auto-flow: row;
+    grid-gap: 24px;
+}
+
+header .headerTitle .mous {
+    width: 36px;
+    height: 56px;
+    border-radius: 22px;
+    border: 1px solid white;
+    margin: auto;
+    padding-top: 9.44px;
+    
+}
+
+header .headerTitle .mous .line {
+    width: 0.1px;
+    height: 10px;
+    border: 1px solid white;
+    margin: auto;
+}
+
+header .headerTitle p {
+    font-size: 20px;
+    line-height: 22px;
+    transform: rotate(90deg);
+}

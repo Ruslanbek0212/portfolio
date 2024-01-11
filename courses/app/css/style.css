@@ -1,0 +1,427 @@
+header {
+  width: 100%;
+}
+
+header nav {
+  width: 100%;
+  padding: 30px 0px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 22111;
+  background-color: white;
+}
+
+header nav a.logo {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #222;
+}
+
+header nav a.logo:hover {
+  color: crimson;
+  -webkit-transition: 5ms linear;
+  -o-transition: 5ms linear;
+  transition: 5ms linear;
+}
+
+header nav .bars {
+  display: none;
+}
+
+header nav .bars span {
+  display: block;
+  padding: 10px 15px;
+  border: 2px solid #222;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+header nav .bars span:hover {
+  background-color: crimson;
+  border-color: crimson;
+  color: white;
+  -webkit-transition: 0.5s linear;
+  -o-transition: 0.5s linear;
+  transition: 0.5s linear;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+header nav ul li {
+  margin-left: 40px;
+  position: relative;
+}
+
+header nav ul li:nth-child(6) {
+  margin-left: 110px;
+}
+
+header nav ul li .dropdown {
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  border: 2px solid gray;
+  border-radius: 5px;
+  text-align: center;
+  display: none;
+  z-index: 111;
+}
+
+header nav ul li .dropdown li {
+  border-bottom: 2px solid gray;
+  padding: 5px;
+  width: 100%;
+  margin: 0px;
+}
+
+header nav ul li .dropdown li:hover {
+  background-color: black;
+}
+
+header nav ul li .dropdown li:last-child {
+  border: none;
+}
+
+header nav ul a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #222;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  cursor: pointer;
+}
+
+header nav ul a:hover {
+  color: crimson;
+}
+
+.header-title {
+  width: 100%;
+  max-height: 740px;
+  margin-top: 130px;
+  position: relative;
+}
+
+.header-title .owl-carousel .box::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.54);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 11;
+}
+
+.header-title .header-box-text {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 111;
+  width: 100%;
+  color: white;
+}
+
+.header-title .header-box-text h1 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 73px;
+  margin-bottom: 24px;
+}
+
+.header-title .header-box-text p {
+  width: calc(100% / 12 * 8);
+  margin: auto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 54px;
+}
+
+.header-title .header-box-text button {
+  display: inline-block;
+  border: none;
+}
+
+.header-title img {
+  max-width: 100%;
+  height: 740px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  height: 10000px;
+}
+
+.bgBlue {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #fff;
+  background-color: #086cf9;
+  border-radius: 4px;
+  display: block;
+}
+
+.bgBlue:hover {
+  color: white;
+}
+
+h2.title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 63px;
+  color: #222;
+}
+
+.signin-modal {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  z-index: 1111;
+  display: none;
+}
+
+.signin-modal .content-modal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+}
+
+.signin-modal .content-modal .fa-close {
+  position: absolute;
+  right: 40px;
+  top: 50px;
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+.signin-modal .content-modal .fa-close:hover {
+  color: crimson;
+  -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.signin-modal .content-modal h2.title {
+  margin: 100px 0px;
+  color: white;
+}
+
+.signin-modal .content-modal form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.signin-modal .content-modal form button {
+  border: none;
+}
+
+.signin-modal .content-modal form label {
+  position: relative;
+}
+
+.signin-modal .content-modal form label .fa {
+  position: absolute;
+  top: 30%;
+  right: 20px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.signin-modal .content-modal form label .fa-eye-slash {
+  display: none;
+}
+
+.signin-modal .content-modal form input {
+  width: 500px;
+  padding: 15px 30px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  background-color: transparent;
+  margin-bottom: 30px;
+}
+
+.signin-modal .content-modal form input::-webkit-input-placeholder {
+  color: white;
+}
+
+.signin-modal .content-modal form input::-moz-placeholder {
+  color: white;
+}
+
+.signin-modal .content-modal form input:-ms-input-placeholder {
+  color: white;
+}
+
+.signin-modal .content-modal form input::-ms-input-placeholder {
+  color: white;
+}
+
+.signin-modal .content-modal form input::placeholder {
+  color: white;
+}
+
+.signin-modal .content-modal form input:focus {
+  outline: none;
+}
+
+@media (max-width: 991px) {
+  header nav a.logo {
+    font-size: 18px;
+  }
+
+  header nav .bars {
+    display: block;
+  }
+
+  header nav ul {
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  header nav ul li {
+    margin-left: 0px;
+    width: 100%;
+    border-bottom: 2px solid gray;
+    padding-bottom: 5px;
+  }
+
+  header nav ul li:nth-child(5) {
+    border: none;
+  }
+
+  header nav ul li:nth-child(7) {
+    width: 100%;
+    text-align: center;
+    border: none;
+  }
+
+  header nav ul li:nth-child(6) {
+    margin-left: 0px;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+    border: none;
+  }
+
+  header nav ul li .dropdown {
+    width: 100%;
+    position: unset;
+    -webkit-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    transform: translateX(0px);
+    border: none;
+    margin: 10px 0px;
+    border-radius: 0px;
+  }
+
+  header nav ul li .dropdown li {
+    border: none;
+  }
+
+  header nav ul a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .header-title .header-box-text h1 {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+
+  .header-title .header-box-text p {
+    margin-bottom: 30px;
+    width: calc(100% / 12 * 12);
+  }
+
+  .header-title img {
+    height: 400px;
+  }
+
+  h2.title {
+    font-size: 30px;
+    height: 30px;
+  }
+
+  .signin-modal .content-modal .fa-close {
+    font-size: 30px;
+  }
+
+  .signin-modal .content-modal form input {
+    width: 300px;
+  }
+}

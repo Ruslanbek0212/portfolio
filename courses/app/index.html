@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>online-courses.com</title>
+    <link rel="shortcut icon" href="./img/Education.svg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="Libs/reset.css">
+    <link rel="stylesheet" href="Libs/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="Libs/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- modal-signIn -->
+
+    <div class="signin-modal">
+
+        <div class="content-modal">
+            <i class="fa fa-close"></i>
+            <h2 class="title">Register</h2>
+            <form action="#!">
+                <input type="text" placeholder="Enter your name">
+                <input type="email" placeholder="Enter your email">
+                <label for="">
+                    <input id="pass" type="password" placeholder="Enter your password">
+                    <i class="fa fa-eye"></i>
+                    <i class="fa fa-eye-slash"></i>
+                </label>
+                <button class="bgBlue">Register</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- header-starting -->
+
+    <header>
+        <nav>
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-auto">
+                        <a href="#!" class="logo">Education</a>
+                    </div>
+                    <div class="col-auto bars">
+                        <span>
+                            <i class="fa fa-bars"></i>
+                        </span>
+                    </div>
+                    <div class="col-lg-auto">
+                        <ul>
+                            <li>
+                                <a href="#!">Home</a>
+                            </li>
+                            <li class="dropdownItem">
+                                <a href="#!">Courses
+                                    <i class="fa fa-angle-down"></i>
+                                </a>
+                                <ul class="dropdown">
+                                    <li><a href="#!">Mobile Flutter</a></li>
+                                    <li><a href="#!">Back-End Python</a></li>
+                                    <li><a href="#!">Front-End React</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#!">Page</a>
+                            </li>
+                            <li>
+                                <a href="#!">Blog</a>
+                            </li>
+                            <li>
+                                <a href="#!">Contact</a>
+                            </li>
+                            <li id="signin">
+                                <a href="#!" class="bgBlue">Singin</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="bgBlue">Sing Up</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="header-title">
+            <div class="owl-carousel">
+                <div class="box">
+                    <img src="./img/pexels-ivan-samkov-5676744 1.png" alt="">
+                </div>
+                <div class="box">
+                    <img src="./img/pexels-ivan-samkov-5676744 1.png" alt="">
+                </div>
+                <div class="box">
+                    <img src="./img/pexels-ivan-samkov-5676744 1.png" alt="">
+                </div>
+            </div>
+            <div class="header-box-text">
+                <h1>1-Self-Paced Learning Courses Online</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, vestibulum euismod nullam elementum. Urna, posuere nisi sit gravida massa. Ultrices bibendum sagittis pellentesque vitae sit.
+                </p>
+                <button class="bgBlue">Start a coures</button>
+            </div>
+        </div>
+
+    </header>
+
+
+
+    <script src="Libs/js/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
